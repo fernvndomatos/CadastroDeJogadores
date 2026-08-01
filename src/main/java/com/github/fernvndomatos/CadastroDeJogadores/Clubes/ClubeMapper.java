@@ -12,7 +12,7 @@ public class ClubeMapper {
         clubeModel.setNomeDoClube(clubeDTO.getNomeDoClube());
         clubeModel.setCidade(clubeDTO.getCidade());
         clubeModel.setPais(clubeDTO.getPais());
-
+        clubeModel.setAnoFundacao(clubeDTO.getAnoFundacao());
         return clubeModel;
     }
 
@@ -23,7 +23,7 @@ public class ClubeMapper {
         clubeDTO.setNomeDoClube(clubeModel.getNomeDoClube());
         clubeDTO.setCidade(clubeModel.getCidade());
         clubeDTO.setPais(clubeModel.getPais());
-
+        clubeDTO.setAnoFundacao(clubeModel.getAnoFundacao());
         return clubeDTO;
     }
 }

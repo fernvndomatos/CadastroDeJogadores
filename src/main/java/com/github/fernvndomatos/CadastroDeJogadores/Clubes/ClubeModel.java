@@ -29,6 +29,9 @@ public class ClubeModel {
     @Column(name = "pais")
     private String pais;
 
+    @Column(name = "ano_fundacao")
+    private Integer anoFundacao;
+
     @OneToMany(mappedBy = "clube")
     @JsonIgnore
     private List<JogadorModel> jogadores;

@@ -14,4 +14,5 @@ public class ClubeDTO {
     private String nomeDoClube;
     private String cidade;
     private String pais;
+    private Integer anoFundacao;
 }

@@ -1,0 +1,1 @@
+ALTER TABLE tb_clubes ADD COLUMN ano_fundacao INTEGER;
